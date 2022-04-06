@@ -1,0 +1,85 @@
+@import '../../style/variables.scss';
+
+.container {
+  // max-width: 305px;
+  height: 482px;
+  background-color: $cardBackgroundColor;
+  border-radius: 8px;
+  box-shadow: $cardBoxShadow;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 404px;
+  padding: 16px;
+  background: url('../../../public/images/products/number7.jpg') no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.subtitleOnImage {
+  color: $textOnCardSecondaryColor;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: $primaryFont;
+  line-height: 24px;
+}
+
+.author {
+  color: $textOnCardMainColor;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: $primaryFont;
+  line-height: 24px;
+}
+
+.productName {
+  color: $textOnCardMainColor;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: $primaryFont;
+  line-height: 24px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.subtitleAvailable {
+  color: $textSecondaryColor;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: $primaryFont;
+  line-height: 24px;
+}
+
+.subtitlePrice {
+  color: $textSecondaryColor;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: $primaryFont;
+  line-height: 24px;
+  text-align: end;
+}
+
+.available {
+  color: $textTitleColor;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: $primaryFont;
+  line-height: 24px;
+}
+
+.price {
+  color: $textOnCardPriceColor;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: $primaryFont;
+  line-height: 24px;
+}

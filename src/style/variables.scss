@@ -1,0 +1,53 @@
+$mediaSizeDesktop: 1200px;
+$mediaSizeLaptop: 1000px;
+$mediaSizeTablet: 800px;
+$mediaSizeMobile: 420px;
+
+$textTitleColor:#000;
+$textSubtitleColor: #828282;
+$textSecondaryColor: #808080;
+$textOnCardMainColor: #fff;
+$textOnCardSecondaryColor: #f3f3f3;
+$textOnCardPriceColor: #0040e5;
+
+$mainBackgroundColor: #e5e5e5;
+$cardBackgroundColor: #fff;
+
+$cardBoxShadow: 0 10px 14px 0 #00000012;
+
+$primaryFont: 'Open Sans', sans-serif;
+
+@mixin font-face($font-family, $font-path, $font-postfix, $font-weight, $font-style) {
+  @font-face {
+    font-weight: $font-weight;
+    font-family: $font-family;
+    font-style: $font-style;
+    src:
+      local('#{$font-family} #{$font-postfix}'),
+      local('#{$font-family}-#{$font-postfix}'),
+      url('#{$font-path}.woff2') format('woff2'),
+      url('#{$font-path}.woff') format('woff');
+  }
+}
+
+@mixin h1() {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $textTitleColor;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: $primaryFont;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+@mixin h2() {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $textSubtitleColor;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: $primaryFont;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+}
