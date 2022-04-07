@@ -1,10 +1,10 @@
 import React, { ReactElement, useEffect, useState } from 'react';
 import axios from 'axios';
 
-import type { ProductsAPI, Product } from '../../types/Product';
-import Catalog from '../../components/Catalog/Catalog';
-import LoadingSpinner from '../../components/LoadingSpinner/LoadingSpinner';
-import Checkbox, { CheckboxData } from '../../components/Checkbox/Checkbox';
+import type { ProductsAPI, Product } from '@/types/Product';
+import Catalog from '@/components/Catalog/Catalog';
+import LoadingSpinner from '@/components/LoadingSpinner/LoadingSpinner';
+import Checkbox, { CheckboxData } from '@/components/Checkbox/Checkbox';
 
 import styles from './productsPage.module.scss';
 
@@ -58,7 +58,7 @@ function ProductsPage(props: ProductsPage): ReactElement {
         {subtitle}
       </div>
       <div className={styles.filter}>
-        <Checkbox title="В наличии" name="available" onChange={filterAvailable} />
+        <Checkbox title="Available" name="available" onChange={filterAvailable} />
       </div>
       <div className={styles.productPage}>
         {isLoaded ? (

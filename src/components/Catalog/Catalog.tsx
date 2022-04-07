@@ -1,8 +1,8 @@
 /* eslint-disable camelcase */
 import React, { ReactElement } from 'react';
 
-import ProductCard from '../ProductCard/ProductCard';
-import type { Product } from '../../types/Product';
+import ProductCard from '@/components/ProductCard/ProductCard';
+import type { Product } from '@/types/Product';
 
 import styles from './catalog.module.scss';
 
