@@ -20,7 +20,7 @@
   line-height: 32px;
 }
 
-.subTitle {
+.subtitle {
   margin-bottom: 32px;
   color: $textSubtitleColor;
   font-weight: 400;
@@ -32,38 +32,4 @@
 
 .filter {
   margin-bottom: 20px;
-}
-
-.cardsContainer {
-  width: 100%;
-
-  @media (min-width: 626px) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 16px;
-    row-gap: 16px;
-  }
-
-  @media (min-width: 940px) {
-    row-gap: 32px;
-  }
-}
-
-.card {
-  margin-bottom: 16px;
-
-  @media (min-width: 626px) {
-    width: 48.5%;
-    margin-bottom: 0;
-  }
-
-  @media (min-width: 940px) {
-    width: 32%;
-  }
-
-  @media (min-width: 1270px) {
-    width: 24%;
-    max-width: 288px;
-  }
 }

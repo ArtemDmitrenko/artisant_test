@@ -53,6 +53,10 @@ input[type='checkbox']:focus + .indicator {
 .title {
   padding-top: 1px;
   padding-left: 30px;
+  color: $textTitleColor;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: $primaryFont;
   cursor: pointer;
 
   &:hover {

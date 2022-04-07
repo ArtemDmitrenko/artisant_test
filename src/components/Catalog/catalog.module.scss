@@ -1,0 +1,35 @@
+@import '../../style/variables.scss';
+
+.cardsContainer {
+  width: 100%;
+
+  @media (min-width: 626px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+
+  @media (min-width: 940px) {
+    row-gap: 32px;
+  }
+}
+
+.card {
+  margin-bottom: 16px;
+
+  @media (min-width: 626px) {
+    width: 48.5%;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 940px) {
+    width: 32%;
+  }
+
+  @media (min-width: 1270px) {
+    width: 24%;
+    max-width: 288px;
+  }
+}
