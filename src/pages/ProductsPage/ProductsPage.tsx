@@ -42,7 +42,7 @@ function ProductsPage(props: ProductsPage): ReactElement {
     const { isChecked } = data;
     const listOfProducts = [...allProducts];
     if (isChecked) {
-      const filteredArr = listOfProducts.filter((item) => item.quantity_available !== 0);
+      const filteredArr = listOfProducts.filter((item) => item.quantity_available > 0);
       setFilteredProducts(filteredArr);
     } else {
       setFilteredProducts(allProducts);
