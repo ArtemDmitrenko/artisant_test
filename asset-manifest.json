@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/artisant_test/static/css/main.97e829db.css",
+    "main.js": "/artisant_test/static/js/main.4dae33c6.js",
+    "static/media/open-sans-regular.woff": "/artisant_test/static/media/open-sans-regular.228f4d40a73ac1c2fc68.woff",
+    "static/media/open-sans-semi-bold.woff": "/artisant_test/static/media/open-sans-semi-bold.06bc8130baf6ea7cc139.woff",
+    "static/media/open-sans-bold.woff": "/artisant_test/static/media/open-sans-bold.faba3f504f533af53a2f.woff",
+    "static/media/open-sans-regular.woff2": "/artisant_test/static/media/open-sans-regular.6f3342c1275c347d5e05.woff2",
+    "static/media/open-sans-semi-bold.woff2": "/artisant_test/static/media/open-sans-semi-bold.269932db491b963cd229.woff2",
+    "static/media/open-sans-bold.woff2": "/artisant_test/static/media/open-sans-bold.e04b1ce223b9364123f2.woff2",
+    "static/media/number7.jpg": "/artisant_test/static/media/number7.1cc1b4b52d233c17a027.jpg",
+    "index.html": "/artisant_test/index.html",
+    "main.97e829db.css.map": "/artisant_test/static/css/main.97e829db.css.map",
+    "main.4dae33c6.js.map": "/artisant_test/static/js/main.4dae33c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97e829db.css",
+    "static/js/main.4dae33c6.js"
+  ]
+}
