@@ -29,7 +29,7 @@ export type Product = {
   quantity_available: number,
 }
 
-type OriginalCompressed= {
+type OriginalCompressed = {
   original: string,
   compressed: string,
 }
